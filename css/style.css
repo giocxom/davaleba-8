@@ -1,0 +1,159 @@
+.header {
+	height: 55px;
+	width: 1360px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	background-color: white;
+	padding-top: 10px;
+
+}
+.a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 10px;
+	width: 100px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 9px 10px 3px -4px #000000
+}
+.a:hover {
+	background-color: #00FFBA;
+	transition: all 1s;
+	color: black;
+	transform: scale(1.1)
+}
+.header-logo {
+	margin-right: 800px;
+	vertical-align: middle;
+
+}
+.header-logo:hover {
+    transform: scale(1.1)
+}
+.nav {
+	display: inline-block;
+}
+.nav-li {
+	display: inline-block;
+	margin-bottom: 100px;
+}
+/* section 1 start */
+.section1 {
+	margin-top: 55px;
+	margin-right:  auto;
+	margin-left:  auto;
+	width: 1360px;
+	height: 700px;
+}
+
+.section1-banner {
+	background-image: url("../img/bck.jpg");
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 12px 11px 6px -4px #000000
+}
+.section1-banner 
+h1 { font-size: 80px;
+	color: white; margin-bottom: 30px;} 
+h5 { font-size: 20px;
+   color: white; }
+
+/*section 1 end*/
+/*section 2 start*/
+.section2 {
+	width: 1360px;
+	height: 850px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section2-container {
+	margin: 0 auto;
+	width: 1170px;
+	height: 700px;
+	background-color: white;
+	display: flex;
+}
+.container-about {
+	width: 240px;
+	height: 240px;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 12px 11px 6px -4px #000000
+}
+.container-about:hover {
+	transform: scale(1.1)
+}
+.h2 {
+	margin-bottom: 30px;
+	margin-left: 10px;
+	font-size: 26px;
+	color: #000000;
+}
+.h3 {
+	font-size: 16px; color: #8D8D8D; 
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+
+}
+.h6 {
+	font-size: 16px;
+	margin-left: 10px;
+}
+.container-main {
+	width: 900px;
+	height: 700px;
+	margin-left: 20px;
+	display: flex;
+	flex-wrap: wrap ;
+}
+.main-div {
+	background-image: url("../img/airplaine.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 260px;
+	height: 320px;
+	margin-right: 40px;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 12px 11px 6px -4px #000000;
+}
+.main-div:hover {
+	transform: scale(1.05);
+}
+.main-div-h2 {
+	margin-top: 180px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+.main-div-p {
+	margin-left: 10px;
+	color: #8D8D8D;
+}
+.main-div:nth-child(2){
+	background-image: url("../img/1.jpg");
+}
+.main-div:nth-child(3){
+	background-image: url("../img/2.jpg");
+}
+.main-div:nth-child(4){
+	background-image: url("../img/3.jpg");
+}
+.main-div:nth-child(5){
+	background-image: url("../img/4.jpg");
+}
+.main-div:nth-child(6){
+	background-image: url("../img/5.jpg");
+}
+
+/*section 2 end*/
