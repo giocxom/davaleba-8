@@ -25,6 +25,9 @@
     .nav-li{
         display: none;
     }
+    .bar {
+        display: block;
+    }
     .container-about{
         display: none;
     }

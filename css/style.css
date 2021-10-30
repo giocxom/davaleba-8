@@ -1,4 +1,6 @@
 .header {
+	display: flex;
+	justify-content: space-between;
 	height: 55px;
 	max-width: 1360px;
 	width: 100%;
@@ -20,6 +22,9 @@
 	border-radius: 10px;
 	box-shadow: 9px 10px 3px -4px #000000
 }
+.bar {
+	display: none;
+}
 .a:hover {
 	background-color: #00FFBA;
 	transition: all 1s;
@@ -27,8 +32,6 @@
 	transform: scale(1.1)
 }
 .header-logo {
-	margin-right: 800px;
-	vertical-align: middle;
 
 }
 .header-logo:hover {
